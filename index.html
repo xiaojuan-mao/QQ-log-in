@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>QQ登录</title>
+		<link rel="stylesheet" href="css/main.css">
+		<script>
+			function send(){var zhanghao=document.getElementById("qq").value;var mima=document.getElementById("pwd").value;alert("你的账号是"+zhanghao);alert("你的密码是"+mima);alert("快去改密码吧hiahiahia~~~")};
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="line1">
+				<img src="img/q1.png" />
+			</div>
+			<div class="line2">
+				<div class="l2left">
+					<div id="qie">
+						<img src="img/q2.png" />
+					</div>
+					<div id="suo">
+						<img src="img/q3.png" />
+					</div>
+				</div>
+				<div class="l2right">
+					<input class="txtborder" type="text" name="qq" id="qq" value="" placeholder="QQ号码/手机/邮箱" /><br />
+					<input class="txtborder" type="password" name="pwd" id="pwd" value="" placeholder="密码" />
+					<!-- <img class="jianpan" src="img/q5.png" /> -->
+					<br />
+					<div class="zidong">
+						<input type="checkbox" /> 自动登录 <input type="checkbox" /> 记住密码 <a href="https://aq.qq.com/v2/uv_aq/html/reset_pwd/pc_reset_pwd_input_account.html?v=3.0&old_ver_account=" target="_blank">找回密码</a>
+					</div>
+					<button type="button" onclick="send()">
+					</button>
+				</div>
+			</div>
+			<div class="line3">
+				<img src="img/q4.png" />
+			</div>
+		</div>
+	</body>
+</html>
